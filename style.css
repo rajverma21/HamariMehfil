@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Belanosima&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Nanum+Myeongjo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Handlee&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  color: #66fcf1;
+}
+
+body {
+  background-color: #0b0c10;
+}
+
+a {
+  margin: 5%;
+}
+
+hr {
+  width: 36%;
+  margin: auto;
+}
+
+.navbar {
+  margin: 0% 3%;
+  display: flex;
+  min-width: 96vw;
+  height: 200%;
+}
+
+/* .share {
+  margin-right: 1.4%;
+  display: flex;
+  align-items: center;
+  width: 8vw;
+  justify-content: space-between;
+} */
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 91.2vw;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#menubtn {
+  background-color: transparent;
+  border: none;
+}
+
+#logo {
+  text-align: center;
+  font-family: "Abril Fatface", cursive;
+  font-size: 7vw;
+}
+
+.m {
+  cursor: pointer;
+}
+
+.content {
+  flex-direction: column;
+  height: 60vh;
+}
+
+#card {
+  font-size: 1.8vw;
+  text-align: center;
+  border-radius: 3%;
+  padding: 3%;
+  margin-top: 5vh;
+  margin-bottom: 8vh;
+  width: auto;
+  height: auto;
+  font-family: "Handlee", cursive;
+  font-weight: 500;
+}
+
+#next {
+  padding: 1vw;
+  background-color: transparent;
+  border: none;
+  box-shadow: 0px 0px 35px 0px;
+  border-radius: 23%;
+  font-size: 1.2vw;
+  font-weight: 650;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.85vw;
+  min-width: 99vw;
+  padding: 1vmin;
+  font-family: "Rubik", sans-serif;
+  font-weight: 600;
+}
